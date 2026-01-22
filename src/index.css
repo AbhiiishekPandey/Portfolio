@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #7c3aed;
+  --bg-color: #000000;
+}
+
+body {
+  @apply bg-dark text-white font-sans antialiased;
+  background-color: var(--bg-color);
+  overflow-x: hidden;
+}
+
+/* Glassmorphism Utilities */
+.glass {
+  @apply bg-white/5 backdrop-blur-lg border border-white/10 shadow-xl;
+}
+
+.glass-card {
+  @apply glass rounded-xl p-6 transition-all duration-300 hover:bg-white/10;
+}
