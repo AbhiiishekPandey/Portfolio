@@ -18,7 +18,7 @@ const Footer = () => {
                     <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors"><Github size={24} /></a>
                     <a href="#" className="text-gray-400 hover:text-blue-700 transition-colors"><Linkedin size={24} /></a>
                     <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors"><Twitter size={24} /></a>
-                    <a href="mailto:email@example.com" className="text-gray-400 hover:text-red-400 transition-colors"><Mail size={24} /></a>
+                    <a href="mailto:abhishekpandeyx01@gmail.com" className="text-gray-400 hover:text-red-400 transition-colors"><Mail size={24} /></a>
                 </div>
             </div>
         </footer>
